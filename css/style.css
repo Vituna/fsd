@@ -1,199 +1,189 @@
 
-    body {
-         position: relative;
-width: 1440px;
-height: 900px;
-background: #ffffff;
-    }
-    .logo {
-        position: absolute;
-width: 100px;
-height: 100px;
-left: 30px;
-top: 30px;
-/background: red;
-    }
-    .line-logo1 {
-        border: 20px solid #06c999;
-border-radius: 50px 50px 60px 70px;
-
-    }
-    .color {
-        position: absolute;
-width: 269.26px;
-height: 610px;
-left: 149.74px;
-top: 145px;
-    }
-    .color-7 {
- position: absolute;
-width: 70px;
-height: 70px;
-left: 150px;
-top: 685px;
-background: #6FCF97;
-border-radius: 6px;
-    }
-    .color-text {
-position: absolute;
-width: 77px;
-height: 57px;
-left: 260px;
-top: 692px;
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 19px;
-line-height: 29px;
-display: flex;
-align-items: center;
-color: #1F2041;
-    }
-    .color-6 {
-top: 595px;
-background: #BC9CFF;
-    }
-    .text-6 {
-width: 82px;
-height: 58px;
-top: 601px;
-    }
-    .color-5 {
-top: 505px;
-background: rgba(31, 32, 65, 0.05);
-    }
-    .text-5 {
-        width: 139px;
-        height: 58px;
-        top: 511px;
-    }
-    .color-4 {
-top: 415px;
-background: rgba(31, 32, 65, 0.25);
-    }
-    .text-4 {
-        width: 149px;
-        height: 57px;
-        top: 422px;
-    }
-    .color-3 {
-top: 324.65px;
-background: rgba(31, 32, 65, 0.5);
-    }
-    .text-3 {
-        width: 151px;
-        height: 57px;
-        top: 332px;
-    }
-    .color-2 {
-top: 235px;
-background: rgba(31, 32, 65, 0.75);
-    }
-    .text-2 {
-        width: 150px;
-        height: 57px;
-        top: 242px;
-    }
-    .color-1 {
-top: 145px;
-background:#1F2041;
-    }
-    .text-1 {
-        width: 159px;
-        height: 57px;
-        top: 152px;
-    }
-    .font {
-        position: absolute;
-width: 403px;
-height: 321px;
-left: 846px;
-top: 145px;
-    }
-   .font-type {
-        position: absolute;
-width: 37px;
-height: 297px;
-left: 846px;
-top: 145px;
-    }
-    .H1 {
-        position: absolute;
-width: 29px;
-height: 30px;
-left: 854px;
-top: 145px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-text-align: right;
-color: rgba(31, 32, 65, 0.25);
-    }
-    .H2 {
-       width: 27px;
-       height: 24px;
-       left: 856px;
-       top: 255px;
-       font-size: 24px;
-       line-height: 29px;
-    }
-    .H3 {
-        width: 17px;
-        height: 15px;
-        left: 866px;
-        top: 353px;
-        font-size: 12px;
-        line-height: 15px; 
-    }
-    .Body {
-        width: 37px;
-        height: 24px;
-        left: 846px;
-        top: 418px;
-        font-size: 14px;
-        line-height: 24px;
-        text-transform: none;
-    }
-    .name-H1 {
-        position: absolute;
-width: 336px;
-height: 60px;
-left: 913px;
-top: 145px;
-font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
-color: #1F2041;
-    }
-    .name-H2 {
-        width: 282px;
-height: 48px;
-top: 255px;
-font-size: 19px;
-line-height: 24px;
-    }
-    .name-H3 {
-        width: 186px;
-height: 15px;
-top: 353px;
-font-size: 12px;
-line-height: 15px;
-font-family: Montserrat;
-text-transform: uppercase;
-    }
-    .name-Body {
-        width: 301px;
-height: 48px;
-top: 418px;
-font-size: 14px;
-line-height: 24px;
-font-family: Montserrat;
-font-weight: normal;
-color: rgba(31, 32, 65, 0.75);
-    }
-   
+body {
+    background: #ffffff;
+}
+.cards {
+    background: #F4F4F6;
+}
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+   margin: 0 auto;
+    display: flex;
+}
+.color {
+    width: 270px;
+    margin-left: 140px;
+    margin-top: 67px;
+}
+.first-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.color-7 {
+    width: 70px;
+    height: 70px;
+    left: 0,26px;
+    top: 540px;
+    background: #6FCF97;
+    border-radius: 6px;
+    margin-right: 40px ;
+}
+.color-text {
+    width: 70px;
+    height: 57px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    align-items: center;
+    color: #1F2041;
+    margin-top: 10px;
+}
+.color-6 {
+    top: 450px;
+    background: #BC9CFF;
+}
+.text-6 {
+    width: 82px;
+    top: 456px;
+}
+.color-5 {
+    top: 360px;
+    background: rgba(31, 32, 65, 0.05);
+}
+.text-5 {
+    width: 139px;
+    top: 366px;
+ }
+.color-4 {
+    top: 270px;
+    background: rgba(31, 32, 65, 0.25);
+}
+ .text-4 {
+    width: 149px;
+    height: 57px;
+    top: 277px;
+}
+.color-3 {
+    top: 180px;
+    background: rgba(31, 32, 65, 0.5);
+}
+.text-3 {
+    width: 151px;
+     height: 57px;
+    top: 187px;
+}
+.color-2 {
+    top: 90px;
+    background: rgba(31, 32, 65, 0.75);
+}
+.text-2 {
+    width: 150px;
+    height: 57px;
+    top: 97px;
+}
+.color-1 {
+    top: 0px;
+    background:#1F2041;
+}
+.text-1 {
+    width: 159px;
+    height: 57px;
+    top: 7px;
+}
+.color-text .color-number {
+    font-weight: normal;
+}    
+ .font {
+    width: 403px;
+    height: 321px;
+    margin-left: 435px;
+    margin-top: 67px;
+}
+.font-row {
+    display: flex;
+    margin-bottom: 50px; 
+}
+.H1 {
+    width: 29px;
+    height: 30px;
+    left: 8px;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(31, 32, 65, 0.25);
+    margin-right: 30px ;
+    text-align: right;
+}
+.H2 {
+    height: 24px;
+    left: 10px;
+    top: 110px;
+    font-size: 19px;
+    line-height: 23px;
+}
+.H3 {
+    height: 15px;
+    left: 20px;
+    top: 208px;
+    font-size: 12px;
+    line-height: 15px; 
+}
+.Body {
     
+    height: 24px;
+    left: 0px;
+    top: 273px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: none;
+}
+.name-H1 {
+    width: 336px;
+    height: 60px;
+    left: 67px;
+    top: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1F2041;
+}
+.name-H2 {
+    width: 282px;
+    height: 48px;
+    top: 110px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.name-H3 {
+    width: 186px;
+    height: 15px;
+    top: 208px;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.name-Body {
+    width: 301px;
+    height: 48px;
+    top: 273px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: rgba(31, 32, 65, 0.75);
+    font-weight: normal;
+}
